@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* 스킵 */
+#skip {
+   position: relative;
+}
+
+#skip a {
+    position: absolute;
+    left: 0px;
+    top: -35px;
+    border: 1px solid wheat;
+    color: #fff;
+    line-height: 30px;
+    width: 160px;
+    background: #333333;
+    text-align: center;
+}
+
+#skip a:focus,
+#skip a:active {
+    top:0;
+}
+/* 레이아웃 */
+#wrap {
+    width : 100%;
+    
+}
+
+#header {
+    width : 100%;
+    height: 325px;
+    background: url(/img/header_bg.jpg) center top repeat-x;
+    
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#contents {
+    width : 100%;
+    height: 800px;
+    background: #413f3f;
+}
+
+#footer {
+    width : 100%;
+    height: 200px;
+    background: #4e4c4c;
+}
+
+#cont_nav {
+    width: 100%;
+    height: 200px;
+    background: #111111;
+}
+
+#cont_tit {
+    width: 100%;
+    height: 200px;
+    background: #222222;
+}
+
+#cont_ban {
+    width: 100%;
+    height: 200px;
+    background: #333333;
+}
+
+#cont_cont {
+    width: 100%;
+    height: 200px;
+    background: #444444;
+}
+
+/* 헤더 */
+.header {
+
+}
+
+.header .header-menu {
+    text-align: right;
+}
+
+.header .header-menu a{
+    display: inline-block;
+    color: #fff;
+    padding: 10px 0px 10px 13px;
+}
+
+.header .header-menu a:hover{
+    color: #666;
+}
+
+.header .header-tit {
+    text-align: center;
+}
+
+.header .header-tit h1{
+    background: #4aa8d4;
+    font-size: 28px;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 40px;
+    font-weight:  normal;
+    text-transform: uppercase;
+}
+
+.header .header-tit a {
+    display: inline-block;
+    background-color: #2698cb;
+    font-size: 18px;
+
+}
+
+.header .header-icon {
+
+}
