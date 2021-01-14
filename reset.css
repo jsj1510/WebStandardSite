@@ -28,6 +28,13 @@ body, input, textarea, select, button, table {
     line-height: 1.5;
 } 
 
+/* 제목태그 */
+h1,h2,h3,h4,h5,h6 {
+    font-size: 13px;
+    color: #222222;
+    font-weight: normal;
+}
+
 /* ir 효과 */
 /* 의미있는 이미지 대체텍스트 제공 */
 .ir_pm {
